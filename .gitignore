@@ -1,0 +1,13 @@
+node_modules
+.next
+*.tsbuildinfo
+next-env.d.ts
+
+# environment files (keep only the example)
+.env*
+!.env.example
+
+# public repo: keep the security register and code graph local
+# (they map the app's weak spots)
+.security-audit/
+graphify-out/
